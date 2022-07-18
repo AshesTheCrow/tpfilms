@@ -13,13 +13,11 @@ include_once "header.php";
 
 <h2>Ajouter un film</h2>
 <form method="post">
-    <input type="text" name="titrefilm" placeholder="Titre">
-    <input type="text" name="descriptfilm" placeholder="description">
-    <input type="date" name="datefilm" placeholder="date">
+    <input type="text" name="titreFilm" placeholder="Titre">
+    <input type="text" name="descriptionFilm" placeholder="description">
+    <input type="date" name="dateFilm" placeholder="date">
     <button type="submit" name="ajouter">Ajouter</button>
 </form>
-
-<hr />
 
 <?php 
 
